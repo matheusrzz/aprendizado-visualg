@@ -1,0 +1,43 @@
+algoritmo "Exercicio Escolha Andar Predio"
+// Função :
+// Autor :
+// Data : 09/06/2026
+// Seção de Declarações 
+var
+
+   andar : inteiro
+
+
+inicio
+
+      Escreval("Digite qual andar entre 1 e 18 você deseja saber o valor")
+      leia( andar )
+      
+      Escolha andar
+      
+              Caso 1
+                   Escreval("o valor do apartamento",andar, " é de R$ 200.000")
+                   
+              Caso 2, 3, 4
+                   Escreval("o valor do apartamento",andar, " é de R$ 220.000")
+
+              Caso 5, 6, 7
+                   Escreval("o valor do apartamento",andar, " é de R$ 250.000")
+
+              Caso 8, 9, 10
+                   Escreval("o valor do apartamento",andar, " é de R$ 300.000")
+
+              Caso 11, 12, 13, 14, 15, 16, 17, 18
+                   Escreval("o valor do apartamento",andar, " é de R$ 500.000")
+                   
+                   
+              OutroCaso
+              
+                    Escreval("Não existe um andar com essnúmero no prédio")
+                    
+                    
+              FImEscolha
+              
+
+
+              fimalgoritmo
