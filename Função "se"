@@ -1,0 +1,25 @@
+algoritmo "Função "se""
+// Função :
+// Autor :
+// Data : 05/06/2026
+// Seção de Declarações 
+var
+
+   numero : inteiro
+
+inicio
+
+      Escreval("Digite um numero: ")
+      leia (numero)
+
+      Se ( numero > 10)Entao
+      
+         Escreval(numero, " é MAIOR do que 10")
+      
+      Senao
+      
+           Escreval(numero, " é MENOR do que 10")
+           
+      Fimse
+
+fimalgoritmo
