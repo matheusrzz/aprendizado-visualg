@@ -1,0 +1,35 @@
+algoritmo "Exercicio LanHouse"
+// Função :
+// Autor :
+// Data : 05/06/2026
+// Seção de Declarações 
+var
+   nome : caractere
+   minutos : real
+   totalpagar: real
+   minutosconvertido : real
+   horas : real
+
+inicio
+
+
+      Escreval ("Digite o nome do cliente:")
+      leia (nome)
+      
+      Escreval ("Digite quantos minutos o cliente utilizou")
+      leia (minutos)
+      
+      totalpagar <- minutos * ((1/60)*2)
+      
+      Escreval("Total a pagar:", totalpagar, " reais.")
+
+
+      
+
+      
+      
+
+
+
+
+fimalgoritmo
