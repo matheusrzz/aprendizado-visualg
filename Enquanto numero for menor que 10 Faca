@@ -1,0 +1,22 @@
+algoritmo "Enquanto numero for menor que 10 Faca"
+// Função :
+// Autor :
+// Data : 10/06/2026
+// Seção de Declarações 
+var
+
+   numero : inteiro
+
+inicio
+
+      numero <- 1
+      
+      Enquanto numero < 10 Faca
+      
+               Escreval(numero)
+               numero <- numero + 1
+      
+      FimEnquanto
+
+
+fimalgoritmo
