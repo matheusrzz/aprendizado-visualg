@@ -1,0 +1,32 @@
+algoritmo "Exercício Enquanto número for diferente de 5"
+// Função :
+// Autor :
+// Data : 10/06/2026
+// Seção de Declarações 
+var
+
+   numero, soma : inteiro
+
+inicio
+
+      
+      soma <- 0
+      
+      Escreval("Digite um numero")
+      leia(numero)
+      
+      Enquanto numero <> 5 Faca
+
+               soma <- soma + numero
+               
+               Escreval("Digite um numero: ")
+               leia(numero)
+
+      FimEnquanto
+      
+      Escreval("Total: ", soma)
+      
+      
+
+
+fimalgoritmo
