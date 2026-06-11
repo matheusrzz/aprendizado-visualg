@@ -1,0 +1,20 @@
+algoritmo "Olá Mundo!"
+// Função :
+// Autor :
+// Data : 03/06/2026
+// Seção de Declarações 
+var
+
+inicio
+
+      // Escreval com letra L no final faz a qubra do texto para a linha de baixo
+
+      Escreval("Olá, mundo!")
+      Escreval("Sou o aluno Matheus")
+      Escreval
+      Escreval
+      Escreva("Olá, mundo! 2")
+      Escreva("Sou o aluno Matheus 2")
+
+
+fimalgoritmo
