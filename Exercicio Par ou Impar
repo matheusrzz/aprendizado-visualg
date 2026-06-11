@@ -1,0 +1,30 @@
+algoritmo "Exercicio Par ou Impar"
+// Função :
+// Autor :
+// Data : 09/06/2026
+// Seção de Declarações 
+var
+
+   numero : inteiro
+   par, impar : logico
+
+
+inicio
+
+      Escreval("Digite um número")
+      leia(numero)
+      
+      // mod 2 pega o resto da divisão
+      //se o reesto for = 0 é PAR
+      //se o resto for diferente de zero é impar
+      
+      se( numero mod 2 = 0  )Entao
+          Escreval("O número",numero, " é PAR !")
+
+       senao
+           Escreval("O número",numero, " é IMPAR !")
+           
+        FimSe
+
+
+fimalgoritmo
