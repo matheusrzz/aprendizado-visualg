@@ -1,0 +1,22 @@
+algoritmo "Enquanto - Letra for Diferente de A"
+// Função :
+// Autor :
+// Data : 10/06/2026
+// Seção de Declarações 
+var
+
+letra : caractere
+
+inicio
+
+      Enquanto letra <> "a" faca
+      
+               Escreval("Digite uma letra: ")
+               leia(letra)
+      
+      FimEnquanto
+      
+      Escreval("Você digitou a  letra A, até a próxima !")
+
+
+fimalgoritmo
