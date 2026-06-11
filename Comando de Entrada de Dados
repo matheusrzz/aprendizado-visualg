@@ -1,0 +1,37 @@
+algoritmo "Comando de Entrada de Dados"
+// Função :
+// Autor :  Matheus R.
+// Data : 03/06/2026
+// Seção de Declarações 
+var
+
+   cliente : caractere  // Texto
+   quantidade : inteiro // 1, 2, 3...
+   preco : real  // Aceita casas deciamis ou seja numeros quebrados
+   produto : caractere  // Texto
+   totalPagar :  real   // Aceita casas deciamis ou seja numeros quebrados
+   
+   
+inicio
+
+      Escreval("Digite o nome do Cliente")
+      leia(cliente)
+      Escreval("Digite a quantidade de produtos que o cliente comprou")
+      leia(quantidade)
+      Escreval("Digite o preço do produto")
+      leia(preco)
+      Escreval("Digite o nome do produto")
+      leia(produto)
+      Escreval("Total a pagar:", quantidade * preco)
+      totalPagar <- quantidade * preco
+      Escreval
+      Escreval
+      Escreval("Cliente: ", cliente)
+      Escreval("Quantidade: ", quantidade)
+      Escreval("Preço: ", preco)
+      Escreval("Produto: ", produto)
+      Escreval("Total a pagar:: ", totalPagar)
+      
+
+
+fimalgoritmo
