@@ -1,0 +1,44 @@
+algoritmo "Exercício Média Aluno"
+// Função :
+// Autor : Matheus R.
+// Data : 03/06/2026
+// Seção de Declarações 
+var
+
+   nome: caractere
+   nota1: real
+   nota2: real
+   nota3: real
+   nota4: real
+   notasoma: real
+   notamedia: real
+   notaminima: inteiro
+
+inicio
+
+
+      Escreval("Digite o nome do Aluno")
+      leia(nome)
+      Escreval("Digite a nota da primeira(1) prova do aluno")
+      leia(nota1)
+      Escreval("Digite a nota da segunda(2) prova do aluno")
+      leia(nota2)
+      Escreval("Digite a nota da terceira(3) prova do aluno")
+      leia(nota3)
+      Escreval("Digite a nota da quarta(4) prova do aluno")
+      leia(nota4)
+      notasoma <- nota1 + nota2 + nota3 + nota4
+      notamedia <- (nota1 + nota2 + nota3 + nota4) / 4
+      Escreval
+      Escreval
+      Escreval ("Nota da primeira prova: ", nota1)
+      Escreval ("Nota da segunda prova: ", nota2)
+      Escreval ("Nota da terceira prova: ", nota3)
+      Escreval ("Nota da quarta prova: ", nota4)
+      Escreval("Prezado aluno ", nome,":",  " A média das suas 4 provas foi de: ", notamedia)
+
+         
+
+
+
+fimalgoritmo
