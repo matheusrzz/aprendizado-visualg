@@ -1,0 +1,36 @@
+algoritmo "Função se Exemplo 2"
+// Função :
+// Autor :
+// Data : 05/06/2026
+// Seção de Declarações 
+var
+
+   cor: caractere
+   
+
+inicio
+
+      Escreval("Digite uma cor: ")
+      leia(cor)
+      
+      Se (cor = "Azul") Entao
+      
+         Escreval("A cor digitada é azul")
+      
+      Senao
+      
+           se ( cor = "Amarelo" )Entao
+           
+              Escreval("A cor digitada é Amarelo")
+           
+           Senao
+           
+           Escreval("Cor inválida")
+           
+           Fimse
+           
+      
+      FimSe
+
+
+fimalgoritmo
