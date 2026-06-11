@@ -1,0 +1,31 @@
+algoritmo "Exercício Enquanto Faca Fatorial"
+// Função :
+// Autor :
+// Data : 11/06/2026
+// Seção de Declarações 
+var
+
+   numero, contador : inteiro
+   fatorial : real
+
+
+inicio
+
+      Escreval("Digite um número")
+      leia(numero)
+      
+      contador <- 1
+      
+      fatorial <- numero
+      
+      Enquanto ( contador < numero ) Faca
+
+               fatorial <- fatorial * contador
+               contador <- contador + 1
+               
+      
+      FimEnquanto
+
+      Escreval ("O fatorial de", numero, " é ", fatorial, ".")
+
+fimalgoritmo
