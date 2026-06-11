@@ -1,0 +1,31 @@
+algoritmo "Exercício Tabuada Enquanto Faca"
+// Função :
+// Autor :
+// Data : 11/06/2026
+// Seção de Declarações 
+var
+
+   numero, contador, resultado : inteiro
+
+inicio
+
+      Escreval(" Digite um numero da tabuada que deseja ver: ")
+      leia(numero)
+      
+      contador <- 1
+      
+      Enquanto (contador <= 10) Faca
+
+               resultado <- (numero * contador)
+               
+               Escreval(numero," x ", contador," = ",resultado)
+               
+               contador <- contador + 1
+      
+      
+      FimEnquanto
+      
+
+
+
+fimalgoritmo
