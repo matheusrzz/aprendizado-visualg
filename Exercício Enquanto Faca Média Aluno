@@ -1,0 +1,35 @@
+algoritmo "Exercício Enquanto Faca Média Aluno"
+// Função :
+// Autor :
+// Data : 10/06/2026
+// Seção de Declarações 
+var
+
+   nomeAluno : caractere
+   nota, somaNotas: real
+   contador : inteiro
+
+inicio
+
+      nota <- 0
+      
+      Escreval("Digite o nome do aluno: ")
+      leia(nomeAluno)
+      
+      contador <- 1
+      
+      Enquanto ( contador < 5 ) Faca
+      
+               Escreval ("Digite a nota ", contador, ": ")
+               leia(nota)
+               
+               somaNotas <- somaNotas + nota
+               contador <- contador + 1
+      
+      FimENquanto
+      
+      Escreval("Aluno: ", nomeAluno)
+      Escreval("Média: ", somaNotas/4)
+
+
+fimalgoritmo
