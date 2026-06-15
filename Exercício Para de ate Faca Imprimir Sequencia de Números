@@ -1,0 +1,23 @@
+algoritmo "Exercício Para de ate Faca Imprimir Sequencia de Números"
+// Função :
+// Autor :
+// Data : 15/06/2026
+// Seção de Declarações 
+var
+
+   numero, quantidade : inteiro
+
+inicio
+
+      Escreval("Digite um número maior que 0:")
+      leia(numero)
+      
+      
+      Para quantidade de 0 ate numero Faca
+      
+           Escreval(quantidade)
+      
+      FimPara
+
+
+fimalgoritmo
