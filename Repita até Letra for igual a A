@@ -1,0 +1,24 @@
+algoritmo "Repita até Letra for igual a A"
+// Função :
+// Autor :
+// Data : 15/06/2026
+// Seção de Declarações 
+var
+
+   letra : caractere
+
+inicio
+
+      Repita
+      
+            Escreval("Digite uma letra: ")
+            leia(letra)
+      
+      Ate letra = "a"
+      
+      Escreval
+      Escreval
+      Escreval("Muito bem! Você digitou a letra A.")
+
+
+fimalgoritmo
