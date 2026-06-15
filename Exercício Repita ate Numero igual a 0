@@ -1,0 +1,27 @@
+algoritmo "Exercício Repita ate Numero igual a 0"
+// Função :
+// Autor :
+// Data : 15/06/2026
+// Seção de Declarações 
+var
+
+   numero, maiorNumeroDigitado : real
+
+inicio
+      
+      maiorNumeroDigitado <- 0
+      
+      Repita
+      
+      Escreval("Escreva um número: ")
+      leia(numero)
+      
+      Se (numero > maiorNumeroDigitado) e (numero <> 0) Entao
+      maiorNumeroDigitado <- numero
+      FimSe
+      
+      Ate numero = 0
+      
+      Escreval("O maior número digitado foi: ", maiorNumeroDigitado)
+
+fimalgoritmo
