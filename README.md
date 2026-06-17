@@ -8,8 +8,10 @@ Estou registrando aqui minha evolução nos estudos de programação.
 
 - [x] VisualG
 - [x] Lógica de Programação
-- [x] C#
-- [ ] C++
+- [~] C++ [em andamento]
+- [ ] Python
+- [ ] C#
+- [ ] Java
 - [ ] Estrutura de Dados
 
 ## Objetivo
@@ -18,11 +20,11 @@ Acompanhar minha evolução desde os primeiros algoritmos até projetos mais ava
 
 ## Linha do Tempo
 
-### Junho/2026
+### 03 Junho/2026 Início dos estudos em VisualG
 - Primeiros exercícios em VisualG
 - Estruturas de repetição (Enquanto)
 - Condicionais (Se/Senão)
 - Variáveis e operadores
 
-### Julho/2026
-- Início dos estudos em C#
+### 18 de Junho/2026 Início dos estudos em C++
+- Início dos estudos em C++
