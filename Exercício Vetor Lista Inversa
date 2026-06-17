@@ -1,0 +1,42 @@
+algoritmo "Exercício Vetor Lista Inversa"
+// Função :
+// Autor :
+// Data : 17/06/2026
+// Seção de Declarações
+var
+
+letraDigitada : vetor [1..5] de caractere
+indice : inteiro
+
+inicio
+
+Para indice de 1 ate 5 Faca
+
+   Escreval("Digite uma letra: ")
+   leia( letraDigitada[ indice] )
+   
+FimPara
+
+Escreval
+Escreval("As letras digitadas foram: ")
+
+Para indice de 1 ate 5 Faca
+
+     Escreval("Letra ", indice, " = ", letraDigitada[ indice])
+
+
+FimPara
+
+Escreval
+Escreval("Segue abaixo a lista inversa: ")
+Escreval
+
+Para indice de 5 ate 1 Passo -1 Faca
+
+     Escreval("Letra ", indice, " = ", letraDigitada[ indice])
+
+
+FimPara
+
+
+fimalgoritmo
