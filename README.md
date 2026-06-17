@@ -10,8 +10,8 @@ Estou registrando aqui minha evolução nos estudos de programação.
 
 - ✅ VisualG
 - ✅ Lógica de Programação
-- ✅ C++
-- 🔄 Python (em andamento)
+- 🔄 C++  (em andamento)
+- ⏳ Python
 - ⏳ C#
 - ⏳ Java
 - ⏳ Estrutura de Dados
