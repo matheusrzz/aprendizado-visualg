@@ -1,0 +1,26 @@
+algoritmo "Vetor Exemplo 1"
+// Função :
+// Autor :
+// Data : 17/06/2026
+// Seção de Declarações 
+var
+
+   letraDigitada : vetor [1..4] de caractere
+   indice : inteiro
+
+inicio
+
+      Para indice de 1 ate 4 Faca
+      
+           Escreval("Digite uma letra: ")
+           leia( letraDigitada[ indice ] )
+      
+      FimPara
+      
+      Escreval
+      Escreval("Letra posição 1: ", letraDigitada[ 1 ])
+      Escreval("Letra posição 2: ", letraDigitada[ 2 ])
+      Escreval("Letra posição 3: ", letraDigitada[ 3 ])
+      Escreval("Letra posição 4: ", letraDigitada[ 4 ])
+
+fimalgoritmo
