@@ -1,0 +1,32 @@
+algoritmo "Exercício Vetor Lista de Números Multiplicados por 2"
+// Função :
+// Autor :
+// Data : 17/06/2026
+// Seção de Declarações 
+var
+
+   vetorNumero1 : vetor [1..5] de inteiro
+   vetorNumero2 : vetor [1..5] de inteiro
+   posicao : inteiro
+
+inicio
+
+      Para posicao de 1 ate 5 Faca
+
+           Escreval("Digite um número: ")
+           leia(vetorNumero1 [ posicao ])
+           vetorNumero2[ posicao ] <- vetorNumero1 [ posicao ] * 2
+           
+       FimPara
+       
+       Escreval
+       Escreval("Resultado: ")
+       
+       Para posicao de 1 ate 5 Faca
+       
+            Escreval("Vetor 1: ",vetorNumero1 [ posicao ], " - ", "Vetor 2: ", vetorNumero2[ posicao ] )
+
+       FimPara
+       
+
+fimalgoritmo
