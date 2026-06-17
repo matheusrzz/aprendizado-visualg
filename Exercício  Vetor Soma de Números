@@ -1,0 +1,38 @@
+algoritmo "Exercício  Vetor Soma de Números"
+// Função :
+// Autor :
+// Data : 17/06/2026
+// Seção de Declarações:
+var
+
+   numeroDigitado : vetor [1..5] de inteiro
+   indice : inteiro
+   soma : real
+
+inicio
+
+      Para indice de 1 ate 5 Faca
+
+           Escreval("Digite um número: ")
+           leia( numeroDigitado[ indice ] )
+           
+      FimPara
+      
+      // Poderia usar tambem: soma <- media + numeroDigitado[ indice ]
+      soma <- (numeroDigitado [ 1 ] + numeroDigitado [ 2 ] + numeroDigitado [ 3 ] + numeroDigitado [ 4 ] + numeroDigitado [ 5 ])
+      Escreval
+      Escreval
+      Escreval("A soma  dos números digitados é: ", soma)
+      Escreval
+      Escreval
+      Escreval("Segue abaixo os número digitados")
+      Escreval
+      
+      Para indice de 1 ate 5 Faca
+
+           Escreval("Numero ", indice, " = ", numeroDigitado[ indice ])
+      
+      FimPara
+
+
+fimalgoritmo
