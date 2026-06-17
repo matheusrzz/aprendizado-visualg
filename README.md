@@ -8,7 +8,7 @@ Estou registrando aqui minha evolução nos estudos de programação.
 
 - [x] VisualG
 - [x] Lógica de Programação
-- [~] C++ [em andamento]
+- [🔄] C++ [em andamento]
 - [ ] Python
 - [ ] C#
 - [ ] Java
