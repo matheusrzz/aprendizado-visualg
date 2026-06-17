@@ -6,13 +6,15 @@ Estou registrando aqui minha evolução nos estudos de programação.
 
 ## Tecnologias estudadas
 
-- [x] VisualG
-- [x] Lógica de Programação
-- [🔄] C++ [em andamento]
-- [ ] Python
-- [ ] C#
-- [ ] Java
-- [ ] Estrutura de Dados
+## Tecnologias estudadas
+
+- ✅ VisualG
+- ✅ Lógica de Programação
+- ✅ C++
+- 🔄 Python (em andamento)
+- ⏳ C#
+- ⏳ Java
+- ⏳ Estrutura de Dados
 
 ## Objetivo
 
