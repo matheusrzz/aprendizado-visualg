@@ -1,0 +1,44 @@
+algoritmo "Exercício Vetor Pesquisa Número"
+// Função :
+// Autor :
+// Data : 19/06/2026
+// Seção de Declarações 
+var
+
+   listaNumerosVetor : vetor [1..5] de inteiro
+   posicao, numeroPesquisa : inteiro
+   
+inicio
+
+      Para posicao de 1 ate 5 Faca
+      
+           Escreval("Digite um número ", posicao, " :")
+           leia(listaNumerosVetor[posicao])
+           
+       FimPara
+       
+       Escreval
+       Escreval
+       Escreval("Digite um numero para pesquisar: ")
+       leia(numeroPesquisa)
+       
+       posicao <- 1
+
+
+       Enquanto ( posicao < 5 ) e ( listaNumerosVetor[posicao] <> numeroPesquisa ) Faca
+       
+                posicao <- posicao + 1
+       
+       FimEnquanto
+       
+       Se listaNumerosVetor[posicao] = numeroPesquisa Entao
+       
+          Escreval(" Número encontrado na posicao:  ", posicao)
+       
+       Senao
+       
+            Escreval(" Número não encontrado. ")
+       
+       FimSe
+
+fimalgoritmo
